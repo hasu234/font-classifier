@@ -80,6 +80,7 @@ From the project directory, run the ```inference.py``` script from the terminal/
 python inference.py --image_path path/to/image.jpg
 ```
 The predicted font name will be displayed to the terminal.
+
 ## Running the FastAPI App
 From the project directory, run the ```fastapi-app.py``` script from terminal. 
 ```
@@ -94,7 +95,7 @@ The project should be running on ```localhost:8000``` port. By entering through 
 
 ## Running on Docker
 From the project directory, run the following command to build and run the classifier. Make sure the docker daemon is running.
-* Build the Docker image by running 
+* Build the Docker image by running  (First time only)
 ```
 docker build -t font-classifier .
 ```
