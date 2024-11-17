@@ -3,4 +3,7 @@ processedImage
 test.py
 output
 latestModel
+wandb
 __pycache__/
+best_resnet_model.pth
+final_resnet_model.pth
