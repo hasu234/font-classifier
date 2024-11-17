@@ -1,1 +1,19 @@
-{"train_loss":0.2126015391200781,"train_precision":94.12878787878788,"train_recall":94.14031771498068,"val_loss":0.2350058009227117,"_wandb":{"runtime":1485},"_timestamp":1.7318703971291833e+09,"epoch":10,"val_precision":91.58204334365324,"val_accuracy":91.25,"train_accuracy":94.21875,"_step":9,"_runtime":1470.0946603,"val_recall":91.52777777777777,"val_f1":91.36789851075567,"train_f1":94.13042799523438}
+{
+    "train_loss": 0.2126015391200781,
+    "train_precision": 94.12878787878788,
+    "train_recall": 94.14031771498068,
+    "val_loss": 0.2350058009227117,
+    "_wandb": {
+        "runtime": 1485
+    },
+    "_timestamp": 1.7318703971291833e+09,
+    "epoch": 10,
+    "val_precision": 91.58204334365324,
+    "val_accuracy": 91.25,
+    "train_accuracy": 94.21875,
+    "_step": 9,
+    "_runtime": 1470.0946603,
+    "val_recall": 91.52777777777777,
+    "val_f1": 91.36789851075567,
+    "train_f1": 94.13042799523438
+}
