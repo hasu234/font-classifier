@@ -13,10 +13,8 @@ def get_args():
 
 args = get_args()
 
-# class labels
 class_names = ['AbyssinicaSIL-Regular', 'AdventPro-Italic[wdth,wght]', 'AdventPro[wdth,wght]', 'BalsamiqSans-Italic']
 
-# Load the saved model
 def load_model(model, filename):
     model.load_state_dict(torch.load(filename))
     model.eval()  # Set the model to evaluation mode
@@ -57,7 +55,7 @@ def predict(image_path, model, class_names):
     print(f'Predicted label: {predicted_label}')
     return predicted_label
 
-# Load the model (assuming the model architecture is defined)
+# Load the model
 model = ResNet(num_classes=4)
 model = load_model(model, 'best_resnet_model.pth')
 

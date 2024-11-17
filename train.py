@@ -23,7 +23,6 @@ def preprocess_data(img):
     img = binarize_image(img)
     img, _ = correct_skew(img)
     img = select_text_area(img)
-    # Ensure the output is a PIL Image
     if isinstance(img, np.ndarray):
         img = Image.fromarray(img)
     return img
