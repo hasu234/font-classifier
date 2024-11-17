@@ -13,7 +13,7 @@ def get_args():
 
 args = get_args()
 
-# Define your class labels (as per your dataset)
+# class labels
 class_names = ['AbyssinicaSIL-Regular', 'AdventPro-Italic[wdth,wght]', 'AdventPro[wdth,wght]', 'BalsamiqSans-Italic']
 
 # Load the saved model

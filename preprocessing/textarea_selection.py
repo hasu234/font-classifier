@@ -1,8 +1,6 @@
 import cv2
 import numpy as np
 
-import numpy as np
-
 def tight_coordinate_generator(word_img):
     threshold = 100
     coords = np.column_stack(np.where(word_img < threshold))

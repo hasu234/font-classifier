@@ -14,3 +14,24 @@
 config: {}
 2024-11-17 01:08:56,406 INFO    MainThread:16968 [wandb_init.py:init():669] starting backend
 2024-11-17 01:08:56,406 INFO    MainThread:16968 [wandb_init.py:init():673] sending inform_init request
+2024-11-17 01:08:56,411 INFO    MainThread:16968 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-11-17 01:08:56,413 INFO    MainThread:16968 [wandb_init.py:init():686] backend started and connected
+2024-11-17 01:08:56,428 INFO    MainThread:16968 [wandb_run.py:_label_probe_notebook():1339] probe notebook
+2024-11-17 01:08:56,562 INFO    MainThread:16968 [wandb_init.py:init():781] updated telemetry
+2024-11-17 01:08:56,660 INFO    MainThread:16968 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2024-11-17 01:08:57,411 INFO    MainThread:16968 [wandb_init.py:init():867] starting run threads in backend
+2024-11-17 01:08:58,205 INFO    MainThread:16968 [wandb_run.py:_console_start():2456] atexit reg
+2024-11-17 01:08:58,205 INFO    MainThread:16968 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2024-11-17 01:08:58,205 INFO    MainThread:16968 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2024-11-17 01:08:58,205 INFO    MainThread:16968 [wandb_run.py:_redirect():2395] Redirects installed.
+2024-11-17 01:08:58,211 INFO    MainThread:16968 [wandb_init.py:init():911] run started, returning control to user process
+2024-11-17 01:35:58,659 INFO    MainThread:16968 [wandb_run.py:_finish():2155] finishing run hasmot23-daffodil-international-university/resnet-font-classification/8ip7kpd0
+2024-11-17 01:35:58,685 INFO    MainThread:16968 [jupyter.py:save_history():459] not saving jupyter history
+2024-11-17 01:35:58,685 INFO    MainThread:16968 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-17 01:35:58,686 INFO    MainThread:16968 [wandb_init.py:_jupyter_teardown():461] cleaning up jupyter logic
+2024-11-17 01:35:58,689 INFO    MainThread:16968 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2024-11-17 01:35:58,690 INFO    MainThread:16968 [wandb_run.py:_restore():2402] restore
+2024-11-17 01:35:58,691 INFO    MainThread:16968 [wandb_run.py:_restore():2408] restore done
+2024-11-17 01:36:54,332 INFO    MainThread:16968 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2024-11-17 01:36:54,339 INFO    MainThread:16968 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2024-11-17 01:36:54,424 INFO    MainThread:16968 [wandb_run.py:_footer_sync_info():3921] logging synced files

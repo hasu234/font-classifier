@@ -1,0 +1,17 @@
+{"time":"2024-11-17T01:08:56.4880058+06:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-17T01:08:56.4897593+06:00","level":"INFO","msg":"created symlink","path":"c:\\Users\\hasmo\\Documents\\FontClassifier\\font-classifier\\wandb\\run-20241117_010856-8ip7kpd0\\logs\\debug-core.log"}
+{"time":"2024-11-17T01:08:56.7372648+06:00","level":"INFO","msg":"created new stream","id":"8ip7kpd0"}
+{"time":"2024-11-17T01:08:56.7378493+06:00","level":"INFO","msg":"writer: Do: started","stream_id":"8ip7kpd0"}
+{"time":"2024-11-17T01:08:56.7378493+06:00","level":"INFO","msg":"stream: started","id":"8ip7kpd0"}
+{"time":"2024-11-17T01:08:56.7378493+06:00","level":"INFO","msg":"sender: started","stream_id":"8ip7kpd0"}
+{"time":"2024-11-17T01:08:56.7384392+06:00","level":"INFO","msg":"handler: started","stream_id":"8ip7kpd0"}
+{"time":"2024-11-17T01:08:57.4257778+06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-17T01:35:58.6983153+06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-17T01:35:58.7061682+06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-17T01:35:59.7052063+06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading best_resnet_model.pth","runtime_seconds":12.7361073,"progress":"30.3MB/42.7MB"},{"desc":"uploading final_resnet_model.pth","runtime_seconds":0.709885,"progress":"992.0KB/42.7MB"},{"desc":"saving job artifact","runtime_seconds":0.6784782},{"desc":"uploading wandb-summary.json","runtime_seconds":0.622375,"progress":"374B/374B"},{"desc":"uploading config.yaml","runtime_seconds":0.3092911,"progress":"626B/626B"},{"desc":"uploading output.log","runtime_seconds":0.3092911,"progress":"4.9KB/4.9KB"}],"total_operations":6}}
+{"time":"2024-11-17T01:36:52.7970199+06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-17T01:36:54.4352035+06:00","level":"INFO","msg":"stream: closing","id":"8ip7kpd0"}
+{"time":"2024-11-17T01:36:54.4352035+06:00","level":"INFO","msg":"handler: closed","stream_id":"8ip7kpd0"}
+{"time":"2024-11-17T01:36:54.4352035+06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"8ip7kpd0"}
+{"time":"2024-11-17T01:36:54.4352035+06:00","level":"INFO","msg":"sender: closed","stream_id":"8ip7kpd0"}
+{"time":"2024-11-17T01:36:54.4352035+06:00","level":"INFO","msg":"stream: closed","id":"8ip7kpd0"}

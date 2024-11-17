@@ -2,3 +2,5 @@ Dataset
 processedImage
 test.py
 output
+latestModel
+__pycache__/

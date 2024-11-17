@@ -1,0 +1,1 @@
+{"test_precision":0.5373782467532467,"test_recall":0.6375,"_step":12,"_wandb":{"runtime":1622},"test_f1":0.5589797747055811,"test_accuracy":63.75,"val_precision":0.5875,"val_accuracy":68.75,"_timestamp":1.7317857585219e+09,"train_loss":0.09606568915769458,"val_recall":0.6875,"_runtime":1622.1095786,"val_loss":2.9428164958953857,"train_accuracy":95.78125,"val_f1":0.609375}

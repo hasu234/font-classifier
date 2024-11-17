@@ -5,3 +5,6 @@ tqdm
 torch
 torchvision
 wandb
+fastapi
+uvicorn
+python-multipart
