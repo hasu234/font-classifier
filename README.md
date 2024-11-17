@@ -9,6 +9,7 @@
   - [Running the FastAPI App](#running-the-fastapi-app)
   - [Running on Docker](#running-on-docker)
   - [Running from Docker Hub](#running-from-docker-hub)
+- [Training Log](#training-log)
 
 # Dependencies
 
@@ -117,3 +118,6 @@ docker run -p 8000:8000 font-classifier
 ```
 
 The FastAPI app should run on ```localhost:8000``` port. Follow the previous FastAPI instruction to predict the font label.
+
+# Training Log
+The training log can be accessed from [here](https://wandb.ai/hasmot23-organization/font-classifier?nw=nwuserhasmot23)

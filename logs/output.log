@@ -1,0 +1,45 @@
+Epoch 1/10: 100%|██████████| 20/20 [02:12<00:00,  6.63s/it]
+c:\Users\hasmo\miniconda3\envs\font\lib\site-packages\sklearn\metrics\_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Epoch [1/10]
+Train Loss: 1.0517, Train Accuracy: 54.53%, Precision: 53.37%, Recall: 54.15%, F1: 53.72%
+Validation Loss: 1.4927, Validation Accuracy: 45.00%, Precision: 26.10%, Recall: 42.71%, F1: 31.55%
+Epoch 2/10: 100%|██████████| 20/20 [02:18<00:00,  6.91s/it]
+Epoch [2/10]
+Train Loss: 0.5670, Train Accuracy: 71.88%, Precision: 71.02%, Recall: 71.53%, F1: 70.91%
+Validation Loss: 1.0106, Validation Accuracy: 45.00%, Precision: 52.88%, Recall: 46.53%, F1: 46.03%
+Epoch 3/10: 100%|██████████| 20/20 [02:13<00:00,  6.67s/it]
+Epoch [3/10]
+Train Loss: 0.5467, Train Accuracy: 72.50%, Precision: 71.79%, Recall: 72.14%, F1: 71.93%
+Validation Loss: 0.6881, Validation Accuracy: 70.00%, Precision: 76.50%, Recall: 70.62%, F1: 71.69%
+Epoch 4/10: 100%|██████████| 20/20 [02:11<00:00,  6.59s/it]
+Epoch [4/10]
+Train Loss: 0.4470, Train Accuracy: 80.94%, Precision: 81.27%, Recall: 80.72%, F1: 80.32%
+Validation Loss: 0.4334, Validation Accuracy: 82.50%, Precision: 83.82%, Recall: 83.82%, F1: 83.82%
+Epoch 5/10: 100%|██████████| 20/20 [02:12<00:00,  6.63s/it]
+Epoch [5/10]
+Train Loss: 0.3911, Train Accuracy: 83.59%, Precision: 83.26%, Recall: 83.38%, F1: 83.23%
+Validation Loss: 0.3934, Validation Accuracy: 87.50%, Precision: 89.67%, Recall: 87.64%, F1: 88.01%
+Epoch 6/10: 100%|██████████| 20/20 [02:27<00:00,  7.37s/it]
+Epoch [6/10]
+Train Loss: 0.3125, Train Accuracy: 89.22%, Precision: 88.96%, Recall: 89.07%, F1: 88.97%
+Validation Loss: 0.3149, Validation Accuracy: 88.75%, Precision: 90.27%, Recall: 89.03%, F1: 89.09%
+Epoch 7/10: 100%|██████████| 20/20 [02:11<00:00,  6.56s/it]
+Epoch [7/10]
+Train Loss: 0.2351, Train Accuracy: 93.59%, Precision: 93.56%, Recall: 93.50%, F1: 93.49%
+Validation Loss: 0.2559, Validation Accuracy: 91.25%, Precision: 91.98%, Recall: 91.53%, F1: 91.56%
+Epoch 8/10: 100%|██████████| 20/20 [02:00<00:00,  6.03s/it]
+Epoch [8/10]
+Train Loss: 0.2304, Train Accuracy: 93.12%, Precision: 93.14%, Recall: 93.02%, F1: 93.02%
+Validation Loss: 0.2471, Validation Accuracy: 92.50%, Precision: 92.64%, Recall: 92.78%, F1: 92.58%
+Epoch 9/10: 100%|██████████| 20/20 [02:18<00:00,  6.94s/it]
+Epoch [9/10]
+Train Loss: 0.2372, Train Accuracy: 91.09%, Precision: 91.09%, Recall: 90.99%, F1: 91.01%
+Validation Loss: 0.2384, Validation Accuracy: 91.25%, Precision: 91.31%, Recall: 91.53%, F1: 91.20%
+Epoch 10/10: 100%|██████████| 20/20 [02:20<00:00,  7.03s/it]
+Epoch [10/10]
+Train Loss: 0.2126, Train Accuracy: 94.22%, Precision: 94.13%, Recall: 94.14%, F1: 94.13%
+Validation Loss: 0.2350, Validation Accuracy: 91.25%, Precision: 91.58%, Recall: 91.53%, F1: 91.37%
+Test Accuracy: 91.25%
+Test Precision: 91.36%, Recall: 91.70%, F1 Score: 91.45%
+Best model saved with validation F1 Score: 92.58%
