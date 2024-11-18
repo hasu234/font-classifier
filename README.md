@@ -48,7 +48,7 @@ pip install -r requirements.txt
 ```
 
 # Training on your data
-To train on your dataset, make sure you have a data folder having the same folder hierarchy like below
+To train on your dataset, make sure you have a data folder having the same folder hierarchy as below
 ```
 ├── dataset
 │   ├── class1
@@ -70,7 +70,7 @@ or make some changes on ```train.py``` according to your dataset directory.
 python train.py --dataset_path /path/to/dataset_directory
 ```
 # Inference Pipeline
-There are 5 different way to infer the classifier. When running ```python``` script from terminal, make sure to activate the conda environment we have created earlier. 
+There are 5 different way to infer the classifier. When running ```python``` script from the terminal, make sure to activate the conda environment we created earlier. 
 
 ## Running on Huggingface Space
 Go to [this](https://huggingface.co/spaces/hasu234/font-classifier) link and upload the font image. You will see the Font Name below the image. 
@@ -80,14 +80,14 @@ From the project directory, run the ```inference.py``` script from the terminal/
 ```
 python inference.py --image_path path/to/image.jpg
 ```
-The predicted font name will be displayed to the terminal.
+The predicted font name will be displayed on the terminal.
 
 ## Running the FastAPI App
-From the project directory, run the ```fastapi-app.py``` script from terminal. 
+From the project directory, run the ```fastapi-app.py``` script from the terminal. 
 ```
 python fastapi-app.py
 ```
-The project should be running on ```localhost:8000``` port. By entering through ```http://localhost:8000/docs``` you could notice a single POST request with /predict/ endpoint. You just have to click ```Try it out```, upload an image, and click the ```Execute``` button. It should return a reponse like this
+The project should be running on ```localhost:8000``` port. By entering through ```http://localhost:8000/docs``` you could notice a single POST request with /predict/ endpoint. You just have to click ```Try it out```, upload an image, and click the ```Execute``` button. It should return a response like this
 ```json
 {
   "predicted_label": "BalsamiqSans-Italic"
@@ -108,7 +108,7 @@ The FastAPI app should run on ```localhost:8000``` port. Follow the previous Fas
 
 ## Running from Docker Hub
 Make sure the docker daemon is running. This step doesn't need the GitHub repository to be on local. 
-* Pull the Docker Image grom Docker Hub
+* Pull the Docker Image from Docker Hub
 ```
 docker pull hasu23/font-classifier
 ```
@@ -120,4 +120,7 @@ docker run -p 8000:8000 font-classifier
 The FastAPI app should run on ```localhost:8000``` port. Follow the previous FastAPI instruction to predict the font label.
 
 # Training Log
-The training log can be accessed from [here](https://wandb.ai/hasmot23-organization/font-classifier?nw=nwuserhasmot23)
+
+The training log is stored in the ```logs``` folder at [here](https://github.com/hasu234/font-classifier/tree/main/logs) 
+
+The training log visualization can be accessed from [WandB](https://wandb.ai/hasmot23-organization/font-classifier?nw=nwuserhasmot23)
