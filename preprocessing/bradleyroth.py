@@ -39,6 +39,18 @@ def replace_yellow_with_black(image):
     return Image.fromarray(image_rgb)
 
 def binarize_image(image, s=None, t=None):
+    """
+    Binarize a PIL image using the Bradley-Roth algorithm.
+
+    Args:
+    - image (PIL.Image.Image): The input image in RGB format.
+    - s (int): The window size for computing the local mean and standard deviation.
+    - t (float): The threshold for binarization.
+
+    Returns:
+    - PIL.Image.Image: The binarized image.
+    """
+    
     image = replace_yellow_with_black(image)
     image = image.convert('L')
 

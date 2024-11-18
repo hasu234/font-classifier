@@ -2,6 +2,16 @@ import cv2
 import numpy as np
 
 def tight_coordinate_generator(word_img):
+    """
+    Generates the tight bounding box coordinates for the given image.
+
+    Args:
+        word_img (numpy.ndarray): Input image (grayscale).
+
+    Returns:
+        tuple: Bounding box coordinates (xmin, xmax, ymin, ymax).
+    """
+    
     threshold = 100
     coords = np.column_stack(np.where(word_img < threshold))
     ymin = np.inf

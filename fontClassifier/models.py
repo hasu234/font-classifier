@@ -29,7 +29,7 @@ class ResidualBlock(nn.Module):
         out = self.relu(out)
         return out
 
-# Define the ResNet model (same as before)
+# Define the ResNet model
 
 class ResNet(nn.Module):
     def __init__(self, num_classes=4):
